@@ -4,4 +4,10 @@ module.exports = {
     public: "/",
     src: "/dist",
   },
+  optimize: {
+    bundle: true,
+    minify: true,
+    treeshake: true,
+    target: "es2020",
+  },
 };
