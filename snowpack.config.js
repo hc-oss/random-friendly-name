@@ -2,7 +2,10 @@
 module.exports = {
   mount: {
     public: "/",
-    src: "/dist",
+    src: "/src",
+  },
+  buildOptions: {
+    out: "dist",
   },
   optimize: {
     bundle: true,
